@@ -1,0 +1,80 @@
+*{
+    margin: 0 0px;
+    padding:0 60px;
+
+    
+}
+ul{
+    list-style-type: none;
+    background-color:transparent;
+    position: fixed;
+    overflow:hidden; 
+    text-align:inherit;
+    width: 100%;
+    
+
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+
+    color:whitesmoke;
+}
+li a:hover{
+    background-color: gray;
+    color: white;
+}
+li{
+    float: left;
+    display: inline;
+    font-size: 30px;
+}
+body{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+input{
+    float: right;
+    position: absolute;
+    left: 1080px;
+    top: 150px;
+    color: white;
+    background-color: transparent;
+    border-color: blanchedalmond;
+    
+    
+    height: 3.9%;
+}
+::placeholder{
+    color:white;
+    opacity: 2;
+    
+
+}
+.password{
+    float: right;
+    position: absolute;
+    left: 1080px;
+    top: 220px;
+    color:white;
+    background-color: transparent;
+    border-color: blanchedalmond;
+
+    
+    height: 3.9%;
+}
+input, select, textarea{
+    color:white;
+}
+.sign{
+    float: right;
+    position: absolute;
+    left: 1080px;
+    top: 300px;
+    color:white;
+    background-color: gray;
+    border-color: blanchedalmond;
+}
+    
